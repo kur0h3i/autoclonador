@@ -10,9 +10,9 @@ Pensado sobre todo para herramientas OSINT, pentesting o utilidades CLI en Pytho
 ## Instalación
  
 ```bash
-curl -O https://raw.githubusercontent.com/TU_USUARIO/clona-e-instala/main/install-tool.sh
-chmod +x install-tool.sh
-mv install-tool.sh ~/.local/bin/install-tool
+curl -O https://raw.githubusercontent.com/kur0h3i/autoclonador/refs/heads/main/autoclonador.sh
+chmod +x autoclonador.sh
+mv autoclonador.sh ~/.local/bin/autoclonador
 ```
  
 Asegúrate de que `~/.local/bin` está en tu `PATH`. Si no, añade a tu `~/.bashrc`:
@@ -30,7 +30,7 @@ install-tool <url-repo> [nombre-comando] [entry-point]
 Ejemplo:
  
 ```bash
-install-tool https://github.com/N0rz3/Phunter.git
+autoclonador https://github.com/N0rz3/Phunter.git
 phunter -u +34600000000
 ```
  
